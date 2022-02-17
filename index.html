@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Carrito Vanilla JS</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <h1 class="title">ShoppingCartJS</h1>
+            <ul>
+                <li class="list-item"><a href="#">Compras</a></li>
+                <li class="list-item"><a href="#">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2 class="title">Productos</h2>
+        <section class="products">
+            <article class="item">
+                <img class="item-img" src="img/arroz.jpg" alt="arroz">
+                <div class="info">
+                    <p class="item-name">Arroz Saman 1kg</p>
+                    <p>$<span class="item-price">61</span></p>
+                    <button class="add-to-cart">Agregar al carrito</button>
+                </div>
+            </article>
+            <article class="item">
+                <img class="item-img" src="img/aceite.jpg" alt="aceite">
+                <div class="info">
+                    <p class="item-name">Aceite Optimo 900ml</p>
+                    <p>$<span class="item-price">125</span></p>
+                    <button class="add-to-cart">Agregar al carrito</button>
+                </div>
+            </article>
+            <article class="item">
+                <img class="item-img" src="img/arvejas.jpg" alt="arvejas">
+                <div class="info">
+                    <p class="item-name">Arvejas lata Rio 200gr</p>
+                    <p>$<span class="item-price">45</span></p>
+                    <button class="add-to-cart">Agregar al carrito</button>
+                </div>
+            </article>
+            <article class="item">
+                <img class="item-img" src="img/azucar.jpg" alt="azucar">
+                <div class="info">
+                    <p class="item-name">Azucar Bella Union 1kg</p>
+                    <p>$<span class="item-price">50</span></p>
+                    <button class="add-to-cart">Agregar al carrito</button>
+                </div>
+            </article>
+            <article class="item">
+                <img class="item-img" src="img/cafe.jpg" alt="cafe">
+                <div class="info">
+                    <p class="item-name">Bracafe frasco 170gr</p>
+                    <p>$<span class="item-price">240</span></p>
+                    <button class="add-to-cart">Agregar al carrito</button>
+                </div>
+            </article>
+            <article class="item">
+                <img class="item-img" src="img/sopa.jpg" alt="sopa">
+                <div class="info">
+                    <p class="item-name">Sopa Gourmet 1lt</p>
+                    <p>$<span class="item-price">76</span></p>
+                    <button class="add-to-cart">Agregar al carrito</button>
+                </div>
+            </article>
+        </section>
+
+        <section class="shopping-cart">
+            <div class="titles">
+                <div><h5>Productos</h5></div>
+                <div><h5>Precio</h5></div>
+                <div><h5>Cantidad</h5></div>
+            </div>
+
+            <div class="JS-products"></div>
+            <!-- <div class="product-in-cart">
+                <div class="col-name">
+                    <img src="img/aceite.jpg" alt="">
+                    <h6>Aceite Optimo Altoleico 900ml</h6>
+                </div>
+                <div class="col-price">
+                    <p>$125</p>
+                </div>
+                <div class="col-unit">
+                    <input type="number" name="" id="" value="1">
+                </div>
+            </div> -->
+
+            <div class="total">
+                <h5>Total</h5>
+                <p class="total-price">$0</p>
+                <button class="buy">Comprar</button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="shop.js"></script>
+</body>
+
+</html>
